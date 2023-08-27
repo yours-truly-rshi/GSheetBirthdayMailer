@@ -1,6 +1,8 @@
 # GSheetBirthdayMailer
 Automated birthday email sender via Google Sheets. Zero server costs. Personalized greetings with Google Sheets integration.
 
+![img.png](images/email_screenshot.png)
+
 ## Description
 GSheetBirthdayMailer is a clever and cost-effective solution designed to automate the process of sending birthday emails to employees using Google Sheets. This project leverages the power of Google Sheets' data management capabilities and integrates it seamlessly with an automated email system, ensuring that your employees' birthdays are never overlooked again.
 

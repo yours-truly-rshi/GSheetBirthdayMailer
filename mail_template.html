@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <base target="_top">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f2e7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            text-align: left;
+        }
+
+        .balloons {
+            font-size: 50px;
+            color: #ff6b6b;
+            margin-bottom: 10px;
+        }
+
+        .greeting {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .message {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .regards {
+            font-size: 16px;
+            color: #777;
+        }
+
+        .company-name {
+            font-size: 18px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <div class="balloons">&#127880;&#127881;</div>
+    <div class="greeting">Happy Birthday, <?= template_payload.name ?>!</div>
+    <div class="message"><?= template_payload.message ?></div>
+    <div class="regards">Best regards,</div>
+    <div class="company-name"><?= template_payload.company_name ?></div>
+</div>
+</body>
+</html>

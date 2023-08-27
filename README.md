@@ -11,7 +11,7 @@ GSheetBirthdayMailer is a clever and cost-effective solution designed to automat
 * **Customizable Templates**: Tailor the birthday email templates to match your company's branding and culture, adding a personal touch to each message.
 * **Scheduled Sending**: Configure the system to send birthday emails at specific times of the day, ensuring that your employees receive their greetings right when they matter most.
 
-## How It Works:
+## How It Works
 * **Data Input**: Input employee details, including names and birthdates, into a designated Google Sheet.
 * **Automation Trigger**: At specified intervals, GSheetBirthdayMailer automatically scans the Google Sheet for upcoming birthdays.
 * **Email Generation**: The system generates personalized birthday emails using the provided templates and employee names.
